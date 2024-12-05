@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<style>
+    .navbar-nav .nav-link.active{
+        background-color: transparent;
+    }
+    .nav-link{
+    text-align: center;
+    color:#ecb941
+    }
+    #logo{
+        width: 200px;
+    }
+    section{
+        height: 100vh;
+        padding-top: 100px;
+    }
+</style>
+<body>
+    <headder id="cabecalho">
+        <div class="navbar navbar sticky-top navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <img src="./img/harry-potter-logo.png" alt="logo" id="logo">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="#filmes">Filmes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#casas">casas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#personagens">Personagens</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#jogos">Jogos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </headder>
+        <div clss="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" style="height: 30em; align-items:center;">
+                <div data-bs-interval="3000" class="carousel-item active ">
+                    <img class="d-block w-100" src="./img/harry-potter-1640525_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="./img/castle-3826771_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="./img/4548127-o-leao-atacou-astro-de-harry-potter-a-1200x630-4.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="./img/train-2592037_1280.jpg">
+                </div>
+            </div>
+        </div>
+    <div class="container" data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="filmes">
+            <h2>Filmes</h2>
+        </section>
+        <section id="casas">
+            <h2>Casas</h2>
+        </section>
+        <section id="personagens">
+            <h2>Personagens</h2>
+        </section>
+        <section id="jogos">
+            <h2>Jogos</h2>
+        </section>
+    </div>
+
+    
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
