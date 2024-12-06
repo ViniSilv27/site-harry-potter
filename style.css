@@ -9,22 +9,37 @@ color:#ecb941
     width: 200px;
 }
 section{
-    height: 70vh;
     padding-top: 100px;
 }
 .card{
     margin: 32px 0;
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+    border: none;
+    margin: 32px;
 }
-.card:hover img{
+.card:hover .img-capa{
     -webkit-transform: scale(1.1);
     transform: scale(1.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
 }
 .img-slide{
     max-height: 500px; 
     object-fit: cover;
 }
+h2 {
+    color: #fff;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(119, 106, 106, 0.3);
+}
+.card-casas{
+    width: 24rem;
+}
+
 @media screen and (max-width: 767px ){
     .img-slide{
         max-height: 150px;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
 }
