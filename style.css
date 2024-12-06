@@ -1,0 +1,30 @@
+.navbar-nav .nav-link.active{
+    background-color: transparent;
+}
+.nav-link{
+text-align: center;
+color:#ecb941
+}
+#logo{
+    width: 200px;
+}
+section{
+    height: 70vh;
+    padding-top: 100px;
+}
+.card{
+    margin: 32px 0;
+}
+.card:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+.img-slide{
+    max-height: 500px; 
+    object-fit: cover;
+}
+@media screen and (max-width: 767px ){
+    .img-slide{
+        max-height: 150px;
+    }
+}
