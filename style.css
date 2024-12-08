@@ -1,9 +1,16 @@
 .navbar-nav .nav-link.active{
     background-color: transparent;
 }
+.nav-pills > .nav-link.active{
+    background-color: #ecb941;
+    color: #fff;
+}
 .nav-link{
 text-align: center;
 color:#ecb941
+}
+body{
+    color: #fff;
 }
 #logo{
     width: 200px;
@@ -16,6 +23,7 @@ section{
     box-shadow: 10px 10px rgba(0,0,0,0.3);
     border: none;
     margin: 32px;
+    width: 14rem;
 }
 .card:hover .img-capa{
     -webkit-transform: scale(1.1);
@@ -32,8 +40,57 @@ h2 {
     text-transform: uppercase;
     border-bottom: 2px solid rgba(119, 106, 106, 0.3);
 }
-.card-casas{
-    width: 24rem;
+.alinhamento-img{
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo span{
+    height: 1px;
+    width: 100%;
+    display: block;
+
+}
+.titulo h3{
+    padding:0 48px;
+    text-wrap: nowrap;
+}
+
+#tab1 .titulo h3 {
+    color:#ecb941;
+    
+}
+#tab1 .titulo span{
+    background-color: #e21313;
+}
+#tab2 .titulo h3 {
+    color:#1e802e;
+    
+}
+#tab2 .titulo span{
+    background-color: #c7bfbf;
+}
+#tab3 .titulo h3 {
+    color:#ecb941;
+    
+}
+#tab3 .titulo span{
+    background-color: #080808;
+}
+
+#tab4 .titulo h3 {
+    color:#354edd;
+    
+}
+#tab4 .titulo span{
+    background-color: #f8f4f4;
 }
 
 @media screen and (max-width: 767px ){
