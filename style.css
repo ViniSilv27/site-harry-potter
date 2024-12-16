@@ -30,6 +30,11 @@ section{
     transform: scale(1.2);
     box-shadow: 10px 10px rgba(0,0,0,0.3);
 }
+.card:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
 .img-slide{
     max-height: 500px; 
     object-fit: cover;
@@ -91,6 +96,13 @@ h2 {
 }
 #tab4 .titulo span{
     background-color: #f8f4f4;
+}
+.cabecalho{
+    padding: 8px 0;
+    background-color: black;
+}
+.cabecalho p{
+    margin-left: 16px;
 }
 
 @media screen and (max-width: 767px ){
